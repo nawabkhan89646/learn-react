@@ -13,12 +13,12 @@ function Hero() {
           tunes tailored to match your mood.
         </p>
         <div className="images">
-          <img src="/src/assets/google-play.jpg" alt="" />
-          <img src="/src/assets/app-store.jpg" alt="" />
+          <img src="/src/assets/google-play.jpg" alt="Google Play" />
+          <img src="/src/assets/app-store.jpg" alt="App Store" />
         </div>
       </div>
       <div className="right">
-        <img src="/src/assets/header.jpg" alt="" />
+        <img src="/src/assets/header.jpg" alt="Music for your current mood" />
       </div>
     </div>
   );
