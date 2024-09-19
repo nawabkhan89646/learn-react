@@ -1,9 +1,8 @@
 import React from 'react';
 import './Hero.css';
-import images from '../assets/google-play.jpg'
-import images from '../assets/app-store.jpg'
-import images from '../assets/header.jpg'
-
+import googlePlay from '../assets/google-play.jpg';
+import appStore from '../assets/app-store.jpg';
+import headerImage from '../assets/header.jpg';
 
 function Hero() {
   return (
@@ -17,12 +16,12 @@ function Hero() {
           tunes tailored to match your mood.
         </p>
         <div className="images">
-          <img src={images} alt="Google Play" />
-          <img src={images} alt="App Store" />
+          <img src={googlePlay} alt="Google Play" />
+          <img src={appStore} alt="App Store" />
         </div>
       </div>
       <div className="right">
-        <img src={images} alt="Music for your current mood" />
+        <img src={headerImage} alt="Music for your current mood" />
       </div>
     </div>
   );
