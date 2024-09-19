@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    align-items: center;
+    padding: 2.8rem 5rem;
+    gap: 3rem;
+}
+
+.main > *{
+    width: 50%;
+}
+
+.main .left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    color: #13313C;
+}
+
+.main .left .images{
+    display: flex;
+    gap: 1.3rem;
+    margin-top: 1rem;
+}
+
+.main .left .images img{
+    width: 26%;
+    border-radius: 5px;
+}
+
+.main .left h1{
+    font-size: 4rem;
+}
+
+.main .left h2{
+    font-size: 1.3rem;
+}
+
+.main .left p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.main .right img{
+    width: 100%;
+}

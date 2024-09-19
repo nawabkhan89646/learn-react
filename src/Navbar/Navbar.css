@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1EEE9;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.6rem 5rem;
+    align-items: center;
+}
+
+.navbar .heading li{
+    list-style: none;
+}
+
+.navbar .heading{
+    display: flex;
+    gap: 2rem;
+    color: rgb(66, 64, 64);
+}
+
+.navbar i{
+    color: rgb(236, 40, 40);
+}
+
+.navbar .right{
+    padding: .7rem 1.6rem;
+    background-color: #F9D678;
+    border-radius: 100px;
+    font-weight: 600;
+    box-shadow: 5px 5px 40px rgb(152, 148, 148);
+}
