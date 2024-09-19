@@ -1,5 +1,7 @@
 import React from 'react';
 import './Hero.css';
+import images from '../assets/app-store.jpg'
+
 
 function Hero() {
   return (
@@ -14,7 +16,7 @@ function Hero() {
         </p>
         <div className="images">
           <img src="/src/assets/google-play.jpg" alt="Google Play" />
-          <img src="/src/assets/app-store.jpg" alt="App Store" />
+          <img src={images} alt="App Store" />
         </div>
       </div>
       <div className="right">
